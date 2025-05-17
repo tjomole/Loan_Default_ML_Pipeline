@@ -116,6 +116,7 @@ ROC AUC: Model's ability to distinguish between classes.
 
 Confusion Matrix: Breakdown of TP, FP, FN, TN.
 
-13. Conclusion
+
+# Conclusion
 
 This pipeline provides a modular, scalable approach to supervised ML for classification. The integration of traditional ML and deep learning, combined with robust preprocessing and consistent evaluation, ensures a comprehensive assessment of model performance for predicting loan defaults.
