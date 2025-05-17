@@ -5,7 +5,8 @@ A step-by-step annotated walkthrough of an end-to-end machine learning pipeline 
 This is a self‐contained Python model/script that: Loads a loan‐default dataset, preprocesses it (missing values, encoding, scaling), splits into train/test, trains five models: (Logistic Regression, Decision Tree, Random Forest, k-Nearest Neighbors, and Feed-forward Neural Network (via Keras)). Each model is then evaluated with accuracy, precision, recall, F1, ROC AUC, and confusion matrix.
 
 # DataSet
-The dataset used can be found here: https://www.kaggle.com/code/hoale2908/mortgage-loan-default-data-preprocessing
+The dataset used can be found here: [
+](https://www.kaggle.com/datasets/yasserh/loan-default-dataset/discussion/522084)
 
 # Detailed Walkthrough
 
