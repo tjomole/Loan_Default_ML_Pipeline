@@ -7,7 +7,7 @@ This is a self‐contained Python model/script that: Loads a loan‐default data
 # DataSet
 The dataset used can be found here: https://www.kaggle.com/code/hoale2908/mortgage-loan-default-data-preprocessing
 
-# Detailed Wallkthrough
+# Detailed Walkthrough
 
 1. Library Imports: Essential libraries are imported for data processing (pandas, numpy), visualization (seaborn, matplotlib), machine learning (scikit-learn), and neural networks (tensorflow.keras).
 2. Access and Load Data:
