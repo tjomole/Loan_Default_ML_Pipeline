@@ -116,6 +116,25 @@ ROC AUC: Model's ability to distinguish between classes.
 
 Confusion Matrix: Breakdown of TP, FP, FN, TN.
 
+# Overall Performance Summary
+
+| Model                         | Accuracy | Precision (1) | Recall (1) | F1-Score (1) | ROC AUC |
+| ----------------------------- | :------: | :-----------: | :--------: | :----------: | :-----: |
+| **Logistic Regression**       |  0.8100  |     0.7558    |   0.3387   |    0.4678    |  0.7735 |
+| **Decision Tree**             |  0.9326  |     0.8632    |   0.8631   |    0.8632    |  0.9092 |
+| **Random Forest**             |  0.9207  |     0.9125    |   0.7500   |    0.8233    |  0.9720 |
+| **k-Nearest Neighbors (k=5)** |  0.8526  |     0.7977    |   0.5382   |    0.6428    |  0.8534 |
+| **Neural Network**            |  0.8940  |     0.8659    |   0.6743   |    0.7582    |  0.9374 |
+
+Note: “Precision (1)” etc. refer to the metrics on the positive class (default = 1).
+
+# Ranking
+
+1. Decision Tree: Best balance of accuracy, precision, recall, F1, and strong AUC.
+2. Random Forest: Top ROC AUC and very high precision; a close second.
+3. Feed-forward Neural Network: Strong discriminative power (AUC) and decent recall after minimal tuning.
+4. k-Nearest Neighbors: Mid-level performance across metrics; simple but outpaced by others.
+5. Logistic Regression: Baseline model with weakest recall and AUC; valuable for interpretability.
 
 # Conclusion
 
