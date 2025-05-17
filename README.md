@@ -136,6 +136,8 @@ Note: “Precision (1)” etc. refer to the metrics on the positive class (defau
 4. k-Nearest Neighbors: Mid-level performance across metrics; simple but outpaced by others.
 5. Logistic Regression: Baseline model with weakest recall and AUC; valuable for interpretability.
 
+This comparative analysis shows that tree-based methods outperform both simple linear models and nearest-neighbor approaches on the loan-default data, with Random Forest offering the best ranking capability and a single Decision Tree providing the best overall balance.
+
 # Conclusion
 
 This pipeline provides a modular, scalable approach to supervised ML for classification. The integration of traditional ML and deep learning, combined with robust preprocessing and consistent evaluation, ensures a comprehensive assessment of model performance for predicting loan defaults.
